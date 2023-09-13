@@ -111,10 +111,12 @@ app.post(`/api/v1/send/contact`, async (req, res) => {
       <li> <p>E-mail: ${email}</p> </li>
       <li> <p>Job Types: ${jobtype}</p> </li>
       <li> <p>Message: ${message}</p> </li>
-  
-  
+
+   <p>I have received your message and will reply to you as soon as possible. Your inquiry is important to me.</p>
+    
+    <p>Best regards,<br/>Yash Patil</p>
       </ul>
-  
+
       `
     };
 
